@@ -112,10 +112,6 @@ query_engine = RetrieverQueryEngine(
     node_postprocessors=[rerank]
 )
 
-# QUERY EXECUTION
-#response = query_engine.query(""" Does UTD provide Mock Visa Interviews?  """)
-#print(response)
-
 # FastAPI Setup
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
